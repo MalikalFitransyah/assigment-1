@@ -9,16 +9,12 @@ Program C++ ini digunakan untuk menghitung:
 
 Input diberikan dalam format **dd/mm/yyyy**, lalu program memprosesnya menggunakan library waktu (`ctime`).
 
----
-
 ## Cara Kerja Program
 
 * Program mengambil **tanggal saat ini** menggunakan `localtime()`
 * Input diparsing menggunakan `stringstream`
 * Data tanggal disimpan dalam struktur `tm`
 * Perhitungan dilakukan melalui 3 fungsi utama
-
----
 
 ## Fungsi Utama
 
@@ -30,8 +26,6 @@ Input diberikan dalam format **dd/mm/yyyy**, lalu program memprosesnya menggunak
 
 * **dayOfDate()**
   Menentukan hari menggunakan `mktime()` lalu mencocokkan dengan array hari.
-
----
 
 ## Contoh
 
